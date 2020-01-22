@@ -80,13 +80,13 @@ void SimpleController::publishControlledVelocity() {
       m_left -= 0.01;
     }
 
-    float ang_diff = m_lastDesiredVelocityMsg -> angular.x - m_lastOdometryMsg->twist.twist.angular.x;
+    float ang_diff = m_lastDesiredVelocityMsg -> angular.z - m_lastOdometryMsg->twist.twist.angular.z;
     if(ang_diff > 0.05) {
-      m_right += 0.005;
-      m_left -= 0.005;
+      m_right += 0.01;
+      m_left -= 0.01;
     } else if(ang_diff < -0.05) {
-      m_right -= 0.005;
-      m_left += 0.005;
+      m_right -= 0.01;
+      m_left += 0.01;
     }
 
     cmd.name = {"left", "right"};

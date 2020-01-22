@@ -3,6 +3,6 @@ prefix=/home/teoga849/TDDE05/catkin_ws/devel/.private/air_lab0
 Name: air_lab0
 Description: Description of air_lab0
 Version: 0.0.0
-Cflags: 
+Cflags: -I/home/teoga849/TDDE05/catkin_ws/devel/.private/air_lab0/include
 Libs: -L${prefix}/lib 
 Requires: 

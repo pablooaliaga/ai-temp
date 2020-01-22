@@ -1,0 +1,35 @@
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target _air_lab0_generate_messages_check_deps_ControllerEvaluationStat[0m
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target simple_controller[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target _air_lab0_generate_messages_check_deps_ControllerEvaluationStat
+[35m[1mScanning dependencies of target air_lab0_generate_messages_eus[0m
+[35m[1mScanning dependencies of target air_lab0_generate_messages_py[0m
+[35m[1mScanning dependencies of target air_lab0_generate_messages_lisp[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[0m
+[ 22%] [34m[1mGenerating Lisp code from air_lab0/ControllerEvaluationStat.msg[0m
+[ 33%] [34m[1mGenerating Python from MSG air_lab0/ControllerEvaluationStat[0m
+[ 44%] [34m[1mGenerating EusLisp code from air_lab0/ControllerEvaluationStat.msg[0m
+[ 44%] Built target air_lab0_generate_messages_lisp
+[35m[1mScanning dependencies of target air_lab0_generate_messages_cpp[0m
+[ 55%] [34m[1mGenerating EusLisp manifest code for air_lab0[0m
+[ 66%] [34m[1mGenerating C++ code from air_lab0/ControllerEvaluationStat.msg[0m
+[ 77%] [34m[1mGenerating Python msg __init__.py for air_lab0[0m
+[ 77%] Built target air_lab0_generate_messages_py
+[ 77%] Built target air_lab0_generate_messages_cpp
+[35m[1mScanning dependencies of target air_lab0_generate_messages_nodejs[0m
+[ 88%] [34m[1mGenerating Javascript code from air_lab0/ControllerEvaluationStat.msg[0m
+[ 88%] Built target air_lab0_generate_messages_nodejs
+[ 88%] Built target air_lab0_generate_messages_eus
+[35m[1mScanning dependencies of target air_lab0_generate_messages[0m
+[ 88%] Built target air_lab0_generate_messages
+[100%] [32m[1mLinking CXX executable /home/teoga849/TDDE05/catkin_ws/devel/.private/air_lab0/lib/air_lab0/simple_controller[0m
+[100%] Built target simple_controller
