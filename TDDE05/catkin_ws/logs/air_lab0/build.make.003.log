@@ -1,0 +1,8 @@
+[35m[1mScanning dependencies of target simple_controller[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[0m
+[01m[K/home/teoga849/TDDE05/catkin_ws/src/air_labs/air_lab0/src/simple_controller.cpp:[m[K In member function ‘[01m[Kvoid SimpleController::publishControlledVelocity()[m[K’:
+[01m[K/home/teoga849/TDDE05/catkin_ws/src/air_labs/air_lab0/src/simple_controller.cpp:71:69:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 2 has type ‘[01m[Kgeometry_msgs::TwistPtr {aka boost::shared_ptr<geometry_msgs::Twist_<std::allocator<void> > >}[m[K’ [[01;35m[K-Wformat=[m[K]
+     printf(" ??????????????????????? %s\n", m_lastDesiredVelocityMsg[01;35m[K)[m[K;
+                                                                     [01;35m[K^[m[K
+[100%] [32m[1mLinking CXX executable /home/teoga849/TDDE05/catkin_ws/devel/.private/air_lab0/lib/air_lab0/simple_controller[0m
+[100%] Built target simple_controller

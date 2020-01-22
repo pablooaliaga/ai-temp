@@ -1,0 +1,8 @@
+<launch>
+  <!-- Launch a node of type simple_controller from the package
+  air_lab0 give it the name "husky_simple_controller" -->
+  <node name="husky_simple_controller" pkg="air_lab0"
+    type="simple_controller">
+    <remap from="controlled_velocity" to="velocity_cmd" />
+  </node>
+</launch>

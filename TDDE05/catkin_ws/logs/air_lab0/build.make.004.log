@@ -1,0 +1,12 @@
+[35m[1mScanning dependencies of target simple_controller[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[0m
+[01m[K/home/teoga849/TDDE05/catkin_ws/src/air_labs/air_lab0/src/simple_controller.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/teoga849/TDDE05/catkin_ws/src/air_labs/air_lab0/src/simple_controller.cpp:38:27:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+   printf("Starting :)\n", [01;31m[K)[m[K;
+                           [01;31m[K^[m[K
+CMakeFiles/simple_controller.dir/build.make:62: recipe for target 'CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o' failed
+make[2]: *** [CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o] Error 1
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/simple_controller.dir/all' failed
+make[1]: *** [CMakeFiles/simple_controller.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

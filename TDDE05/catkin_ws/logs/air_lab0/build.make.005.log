@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target simple_controller[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/teoga849/TDDE05/catkin_ws/devel/.private/air_lab0/lib/air_lab0/simple_controller[0m
+[100%] Built target simple_controller
